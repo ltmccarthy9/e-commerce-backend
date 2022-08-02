@@ -18,7 +18,8 @@ For this application you can use Insomnia to interact with the database.
 * command line
 
 ## Installation 
-Clone or copy over this repository.  Before interacting with the databse you will have to open up 
+Clone or copy over this repository.  Before interacting with the databse you will have to create
+a .env file and create your environment variables to start your mySQL database.  Open up 
 mySQL shell or workbench and create the database using the schema.sql file.  Next you will have to run npm
 install to install the correct dependancies.  After this, run "npm run seed" in your terminal to seed the database
 tables with some default values.  Next open insomnia and send some calls to your routes.
